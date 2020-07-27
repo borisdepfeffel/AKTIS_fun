@@ -9,6 +9,6 @@ def fib_num(n):
     for num in range(n + 1):
         if num > 2:
             sequence.append(sequence[num-1] + sequence[num-2])
-    return sequence[num]
+    return sequence[n]
 
-print(fib_num(5))
+print(fib_num(28))
